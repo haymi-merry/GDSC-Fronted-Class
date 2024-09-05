@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Please Select Your Choice Of Color </h1>
+    <div class="allColors">
+        <div class="color-1">
+            <input type="radio" name="color" value="Blue" onclick="ColorChoice('Blue')"> Blue
+        </div>
+        <div class="color-2">
+            <input type="radio" name="color" value="Green" onclick="ColorChoice('Green')"> Green
+        </div>
+        <div class="color-3">
+            <input type="radio" name="color" value="Gurple" onclick="ColorChoice('Purple')"> Purple
+        </div>
+        <div class="color-4">
+            <input type="radio" name="color" value="Sunny" onclick="ColorChoice('Sunny')"> Sunny
+        </div>
+        <div class="color-5">
+            <input type="radio" name="color" value="NightMode" onclick="ColorChoice('NightMode')"> NightMode
+        </div>
+        <div class="color-6">
+            <input type="radio" name="color" value="White" onclick="ColorChoice('White')"> White
+        </div>
+    </div>
+    <div id="SelectedColor">You select nothing</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

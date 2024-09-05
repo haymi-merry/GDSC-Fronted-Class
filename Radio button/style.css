@@ -1,0 +1,78 @@
+body{
+    background: rgb(219, 126, 142);
+    font-weight: bold;
+}
+.allColors {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+            font-size: 25px;  
+        }
+ h1{
+    text-align: center;
+    color: rgb(40, 12, 180);
+    font-size: 35px;
+
+ }  
+ #SelectedColor{
+    text-align: center;
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+    padding-top: 20px;
+ } 
+ .color-1{
+    /* background-color: #5ab5ff; */
+    /* width: 200px;
+    height: 40px; */
+    text-align: center;
+    padding-top:30px;
+    color: white;
+     color: red;
+ }  
+ .color-2{
+    /* background-color:#03c4a1; */
+    /* width: 200px;
+    height: 40px; */
+    text-align: center;
+    padding-top:30px;
+    color: white;
+     color: red;
+ } 
+ .color-3{
+    /* background-color: #c300ff; */
+    /* width: 200px;
+    height: 40px; */
+    text-align: center;
+    padding-top:30px;
+    color: white;
+     color: red;
+ } 
+ .color-4{
+    /* background-color: #FFEB3B; */
+    /* width: 200px;
+    height: 40px; */
+    text-align: center;
+    padding-top:30px;
+    color: white;
+     color: red;
+ } 
+ .color-5{
+    /* background-color: #000; */
+    /* width: 200px;
+    height: 40px; */
+    text-align: center;
+    padding-top:30px;
+    color: white;
+     color: red;
+ }  
+  .color-6{
+    /* background-color: white; */
+    /* width: 200px;
+    height: 40px; */
+    text-align: center;
+    padding-top:30px;
+    color: black;
+    color: red;
+ }   
